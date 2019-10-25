@@ -7,11 +7,10 @@
             "command": "g++",
             "args": [
                 "-std=c++17",
-                "-O3",
                 "-g",
-                "${file}",
+                "${fileDirname}/${file}",
                 "-o",
-                "${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "build",

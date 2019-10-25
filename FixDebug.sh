@@ -1,4 +1,6 @@
 #!/bin/bash
+# Please make sure that you had corrected the version of
+# glibc and install path before run it
 
 cd /
 sudo mkdir -p /build/glibc-OTsEL5/
