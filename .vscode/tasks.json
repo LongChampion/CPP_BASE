@@ -8,7 +8,7 @@
             "args": [
                 "-std=c++17",
                 "-g",
-                "${fileDirname}/${file}",
+                "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
