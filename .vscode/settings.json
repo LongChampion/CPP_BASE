@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Default High Contrast",
     "editor.cursorStyle": "block",
     "editor.tabCompletion": "on",
     "editor.fontFamily": "'Droid Sans Mono', 'Source Code Pro', 'Droid Sans Fallback', 'Font Awesome 5 Free'",
@@ -17,5 +16,11 @@
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, Language: Cpp, Standard: Cpp11, AccessModifierOffset: -2, AlignEscapedNewlines: Left, AlignTrailingComments: true, AllowShortBlocksOnASingleLine: true, AllowShortCaseLabelsOnASingleLine: true, AllowShortFunctionsOnASingleLine: All, AllowShortIfStatementsOnASingleLine: true, AllowShortLoopsOnASingleLine: true, BreakBeforeBraces: Allman, ColumnLimit: 0, IndentCaseLabels: true, IndentWidth: 4, MaxEmptyLinesToKeep: 6, NamespaceIndentation: All, PointerAlignment: Right, SortIncludes: false, SortUsingDeclarations: false, SpaceBeforeAssignmentOperators: true, SpaceBeforeCpp11BracedList: true, SpaceBeforeCtorInitializerColon: false, SpaceBeforeInheritanceColon: false, SpaceBeforeParens: ControlStatements, SpaceBeforeRangeBasedForLoopColon: true, SpaceInEmptyParentheses: false, SpacesBeforeTrailingComments: 4, SpacesInAngles: false, SpacesInCStyleCastParentheses: false, SpacesInContainerLiterals: false, SpacesInParentheses: false, SpacesInSquareBrackets: false, TabWidth: 4, UseTab: Never }",
     "C_Cpp.updateChannel": "Insiders",
     "workbench.startupEditor": "none",
-    "window.title": "LongChampion"
+    "window.title": "LongChampion",
+    "workbench.colorTheme": "Default High Contrast",
+    "problems.showCurrentInStatus": true,
+    "files.simpleDialog.enable": true,
+    "workbench.enableExperiments": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
 }
