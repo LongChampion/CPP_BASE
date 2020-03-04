@@ -1,4 +1,5 @@
-# Longchampion's clang-format 8
+# Longchampion's clang-format 9
+# Review all option here: https://releases.llvm.org/9.0.0/tools/clang/docs/ClangFormatStyleOptions.html
 
 BasedOnStyle: LLVM
 Language: Cpp
@@ -14,15 +15,24 @@ AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 AlwaysBreakAfterReturnType: None
 BreakBeforeBraces: Allman
+BreakStringLiterals: false
 ColumnLimit: 0
+ContinuationIndentWidth: 4
 Cpp11BracedListStyle: true
+FixNamespaceComments: true
 IndentCaseLabels: true
+IndentPPDirectives: AfterHash
 IndentWidth: 4
+IndentWrappedFunctionNames: true
+KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 6
 NamespaceIndentation: All
 PointerAlignment: Right
 SortIncludes: false
 SortUsingDeclarations: false
+SpaceAfterCStyleCast: true
+SpaceAfterLogicalNot: true
+SpaceAfterTemplateKeyword: true
 SpaceBeforeAssignmentOperators: true
 SpaceBeforeCpp11BracedList: true
 SpaceBeforeCtorInitializerColon: false

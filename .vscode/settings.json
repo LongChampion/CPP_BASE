@@ -17,10 +17,11 @@
     "C_Cpp.updateChannel": "Insiders",
     "workbench.startupEditor": "none",
     "window.title": "LongChampion",
-    "workbench.colorTheme": "Default High Contrast",
     "problems.showCurrentInStatus": true,
     "files.simpleDialog.enable": true,
     "workbench.enableExperiments": false,
     "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Default High Contrast"
 }
