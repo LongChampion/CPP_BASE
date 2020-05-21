@@ -1,7 +1,7 @@
 {
     "editor.cursorStyle": "block",
     "editor.tabCompletion": "on",
-    "editor.fontFamily": "'Droid Sans Mono', 'Source Code Pro', 'Droid Sans Fallback', 'Font Awesome 5 Free'",
+    "editor.fontFamily": "'Droid Sans Mono', 'Source Code Pro', 'Droid Sans Fallback', 'Font Awesome 5 Free', 'Font Awesome 5 Brands'",
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
@@ -22,6 +22,11 @@
     "workbench.enableExperiments": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Default High Contrast"
+    "python.formatting.autopep8Path": "~/.local/bin/autopep8",
+    "python.linting.pylintPath": "~/.local/bin/pylint",
+    "workbench.colorTheme": "Default High Contrast",
+    "git.githubAuthentication": false,
+    "git.terminalAuthentication": false,
+    "terminal.external.linuxExec": "kitty",
+    "timeline.pageSize": 0
 }
