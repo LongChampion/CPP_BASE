@@ -1,5 +1,5 @@
-# Longchampion's clang-format 11 configuration
-# Review all option here: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# Longchampion's clang-format 10 configuration
+# Review all option here: https://releases.llvm.org/10.0.0/tools/clang/docs/ClangFormat.html 
 
 BasedOnStyle: LLVM
 Language: Cpp
@@ -7,13 +7,11 @@ Standard: Cpp11
 
 AccessModifierOffset: -2
 AlignConsecutiveAssignments: true
-AlignConsecutiveBitFields: true
 AlignConsecutiveMacros: true
 AlignEscapedNewlines: Left
 AlignTrailingComments: true
 AllowShortBlocksOnASingleLine: Always
 AllowShortCaseLabelsOnASingleLine: true
-AllowShortEnumsOnASingleLine: true
 AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
@@ -27,7 +25,6 @@ DeriveLineEnding: false
 DerivePointerAlignment: false
 FixNamespaceComments: true
 IndentCaseLabels: true
-IndentExternBlock: AfterExternBlock
 IndentGotoLabels: true
 IndentPPDirectives: AfterHash
 IndentWidth: 4
