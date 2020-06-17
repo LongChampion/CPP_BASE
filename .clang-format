@@ -3,7 +3,7 @@
 
 BasedOnStyle: LLVM
 Language: Cpp
-Standard: Cpp11
+Standard: Latest
 
 AccessModifierOffset: -2
 AlignConsecutiveAssignments: true
@@ -57,7 +57,6 @@ SpacesInConditionalStatement: false
 SpacesInContainerLiterals: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
-Standard: Latest
 TabWidth: 4
 UseCRLF: false
 UseTab: Never
