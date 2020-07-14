@@ -3,15 +3,18 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "Compile",
-            "command": "g++",
+            "label": "Compile C++",
+            "command": "/usr/bin/g++",
             "args": [
                 "-std=c++17",
-                "-g",
+                "-O3",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
+            "options": {
+                "cwd": "/usr/bin",
+            },
             "problemMatcher": [
                 "$gcc"
             ],
@@ -25,7 +28,37 @@
                 "focus": true,
                 "panel": "shared",
                 "showReuseMessage": true,
-                "clear": true
+                "clear": false
+            }
+        },
+        {
+            "type": "shell",
+            "label": "Compile C",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-std=c18",
+                "-O3",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
             }
         }
     ]
