@@ -6,8 +6,10 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "stopAtEntry": false,
+            "args": [],
+            "stopAtEntry": true,
             "cwd": "${fileDirname}",
+            "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
             "setupCommands": [
@@ -17,6 +19,7 @@
                     "ignoreFailures": true
                 }
             ],
+            "preLaunchTask": "Compile C++ (Debug)",
             "miDebuggerPath": "/usr/bin/gdb",
             "miDebuggerArgs": "-q -nx"
         }
