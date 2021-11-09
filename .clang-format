@@ -1,5 +1,5 @@
 # Longchampion's clang-format 12 configuration
-# URL: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# URL: https://releases.llvm.org/12.0.0/tools/clang/docs/ClangFormatStyleOptions.html
 
 BasedOnStyle: LLVM
 Language: Cpp
@@ -19,7 +19,7 @@ AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: true
 AlwaysBreakAfterReturnType: None
 BitFieldColonSpacing: After
-BreakBeforeBraces: Allman
+BreakBeforeBraces: Attach
 BreakBeforeConceptDeclarations: true
 BreakStringLiterals: false
 ColumnLimit: 0
