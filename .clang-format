@@ -48,10 +48,7 @@ DisableFormat:   false
 EmptyLineAfterAccessModifier: Never
 EmptyLineBeforeAccessModifier: Always
 FixNamespaceComments: true
-ForEachMacros:
-  - foreach
-  - Q_FOREACH
-  - BOOST_FOREACH
+ForEachMacros: ['foreach', 'Q_FOREACH', 'BOOST_FOREACH']
 IfMacros: []
 IncludeBlocks:   Preserve
 IncludeIsMainRegex: ''
